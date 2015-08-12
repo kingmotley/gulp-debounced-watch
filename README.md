@@ -1,6 +1,6 @@
-# [gulp](https://github.com/gulpjs/gulp)-debounced-watch [![NPM version][npm-image]][npm-url]
+# [gulp](https://github.com/gulpjs/gulp)-debounced-watch [![NPM version][npm-image]][npm-url][![Dependency Status][depstat-image]][depstat-url]
 
-File watcher that uses super-fast [chokidar](https://github.com/paulmillr/chokidar) and emits vinyl objects.
+File watcher that uses super-fast [chokidar](https://github.com/paulmillr/chokidar) and emits vinyl objects and debounces the files individually.
 
 ## Installation
 
@@ -131,3 +131,7 @@ All events from [chokidar](npmjs.com/chokidar):
 MIT (c) 2015 Robert McKee (robertjunk@mckee.org)
 
 [npm-url]: https://npmjs.org/package/gulp-debounced-watch
+[npm-image]: http://img.shields.io/npm/v/gulp-debounced-watch.svg?style=flat
+
+[depstat-url]: https://david-dm.org/kingmotley/gulp-debounced-watch
+[depstat-image]: http://img.shields.io/david/kingmotley/gulp-debounced-watch.svg?style=flat

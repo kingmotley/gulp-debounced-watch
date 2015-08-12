@@ -1,6 +1,6 @@
 {
   "name": "gulp-debounced-watch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A gulp watcher with debouncing",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
     "debounce",
     "gulpplugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kingmotley/gulp-debounced-watch"
+  },
   "author": "Robert McKee <robertjunk@mckee.org>",
   "license": "MIT",
   "dependencies": {
