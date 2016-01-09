@@ -107,7 +107,7 @@ This option when set will issue a callback on the first event.
 
 #### options.debounceTimeout
 Type: `Number`
-Default: `1000`
+Default: `100`
 
 The number of milliseconds to debounce.
 
